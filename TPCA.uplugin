@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Third Person Character Actors",
+	"Description": "Adds code and assets to improve third person characters in a character-based project.",
+	"Category": "Gameplay",
+	"CreatedBy": "Nicolas Lebedenco",
+	"CreatedByURL": "http://nlebedenco.net",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/nlebedenco/TCPE/issues",
+	"EngineVersion": "4.26.0",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"Plugins": [
+		{
+			"Name": "TPCE",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "TPCA",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "TPCAEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
